@@ -1,0 +1,33 @@
+<h1>Edit Your Outfit:</h1>
+<div>
+  <form action="/good_fits/<%= @good_fits.id %>" method="POST">
+      <input type = "hidden" name= "_method" value= "PATCH">
+    <div>
+      <label for="outfit_season">SEASON: </label>
+      <input id="season" type="text" name="outfit[season]" value=<%=@good_fits.season%>>
+    </div>
+    <div>
+      <label for="outfit_top">TOP: </label>
+      <input id="outfit_top" type="text" name="outfit[top]" value=<%=@good_fits.top%>>
+    </div>
+    <div>
+      <label for="outfit_bottom">BOTTOM: </label>
+      <input id="outfit_bottom" type="text" name="outfit[bottom]" value=<%=@good_fits.bottom%>>
+    </div>
+    <div>
+      <label for="outfit_footwear">FOOTWEAR: </label>
+      <input id="outfit_footwear" type="text" name="outfit[footwear]" value=<%=@good_fits.footwear%>>
+    </div>
+    <input type="submit" value="Edit Outfit">
+  </form>
+</div>
+<br>
+<h1>or</h1>
+<div>
+  <form method= "POST" action= "/good_fits/<%=@good_fits.id%>/delete">
+    <div>
+      <input type= "hidden" id= "hidden" name= "_method" value= "DELETE">
+      <input type= "submit" value= "Delete Outfit">
+    </div>
+  </form>
+</div>
