@@ -12,12 +12,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 https://opensource.org/licenses/MIT
 
-Installation
+# Installation
 
 git clone git@github.com:MDAM182/Final-Sinatra-Project.git
 cd into sinatra_project_good_fits
 Opens with the specified text editor
 
 
-Contributing
+# Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/MDAM182/Final-Sinatra-Project This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
