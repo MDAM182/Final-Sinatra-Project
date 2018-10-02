@@ -1,0 +1,24 @@
+<h1>Fits</h1>
+<table>
+  <th>USER </th>
+  <br>
+  <th>SEASON </th>
+  <br>
+  <th>TOP  </th>
+  <br>
+  <th>BOTTOM  </th>
+  <br>
+  <th>FOOTWEAR</th>
+  <tr>
+    <% @good_fits.each do |outfit| %>
+      <td align="center"> <a href="/good_fits/<%=outfit.id%>"><%= outfit.id %></a></td>
+      <td align="center"><%= outfit.season %></td>
+      <td align="center"><%= outfit.top %></td>
+      <td align="center"><%= outfit.bottom %></td>
+      <td align="center"><%= outfit.footwear %></td>
+  </tr>
+  <% end %>
+</table>
+<br>
+
+<a class="button" href="good_fits/new">Create Outfit</a>
