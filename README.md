@@ -18,7 +18,7 @@ git clone git@github.com:MDAM182/Final-Sinatra-Project.git
 
 cd into sinatra_project_good_fits
 
-Opens with the specified text editor
+Open with the specified text editor 
 
 
 # Contributing
