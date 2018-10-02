@@ -2,23 +2,22 @@ Specifications for the Sinatra Assessment
 
 Specs:
 
-[] Use Sinatra to build the app
+[X] Use Sinatra to build the app 
+[X] Use ActiveRecord for storing information in a database
 
-[] Use ActiveRecord for storing information in a database
+[X] Include more than one model class (list of model class names e.g. User, Post, Category)
 
-[] Include more than one model class (list of model class names e.g. User, Post, Category)
+[X] Include at least one has_many relationship (x has_many y e.g. User has_many Posts)
 
-[] Include at least one has_many relationship (x has_many y e.g. User has_many Posts)
+[X] Include user accounts
 
-[] Include user accounts
+[X] Ensure that users can't modify content created by other users
 
-[] Ensure that users can't modify content created by other users
-
-[] Include user input validations
+[X] Include user input validations
 
 []  BONUS - not required Display validation failures to user with error message (example form URL e.g. /posts/new)
 
-[] Your README.md includes a short description, install instructions, a contributors guide and a link to the license for your code
+[X] Your README.md includes a short description, install instructions, a contributors guide and a link to the license for your code
 
 Confirm:
 
