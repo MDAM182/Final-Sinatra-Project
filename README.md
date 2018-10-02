@@ -1,6 +1,10 @@
 # Final-Sinatra-Project
 
+# Description
 Welcome to my first Sinatra project. The idea i have for this app is so users can connect and share their wardrobe with others and also give users a way to view what they have to wear for any condition and place from their own personal closet without psychically checking.
+
+
+# License
 
 Copyright (c) 2018 Michael Morris
 
@@ -18,7 +22,7 @@ git clone git@github.com:MDAM182/Final-Sinatra-Project.git
 
 cd into sinatra_project_good_fits
 
-Open with the specified text editor 
+Open with the specified text editor
 
 
 # Contributing
