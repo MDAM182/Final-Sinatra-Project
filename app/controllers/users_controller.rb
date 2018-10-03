@@ -16,7 +16,7 @@ class UsersController < ApplicationController
           redirect to '/good_fits'
         else
           @errors = { message: @user.errors.full_messages.join(', ') }
-          erb :'/signup'
+          erb :"users/create"
         end
 end
 
