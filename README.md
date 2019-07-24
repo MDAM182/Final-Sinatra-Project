@@ -1,7 +1,7 @@
 # Final-Sinatra-Project
 
 # Description
-Welcome to my first Sinatra project. The idea i have for this app is so users can connect and share their wardrobe with others and also give users a way to view what they have to wear for any condition and place from their own personal closet without psychically checking.
+Welcome to my Sinatra project, GoodFits. The idea i have for this app is so users can connect and share their wardrobe with other users as well as give users a way to view what they should wear for any condition at any time & place from their own personal closet without physically checking.
 
 
 # Installation
@@ -10,7 +10,9 @@ git clone git@github.com:MDAM182/Final-Sinatra-Project.git
 
 cd into sinatra_project_good_fits
 
-Open with the specified text editor
+open with the specified text editor
+
+run shotgun
 
 
 # Contributing
