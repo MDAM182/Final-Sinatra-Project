@@ -24,7 +24,11 @@ class GoodFitsController < ApplicationController
 
   get '/good_fits/:id' do
       @good_fits = GoodFit.find_by_id(params[:id])
+    if @good_fits.user_id == current_user.id
       erb :"good_fits/show"
+    else
+      redirect "/good_fits"
+    end
   end
 
 
@@ -42,13 +46,19 @@ end
 
   patch "/good_fits/:id" do
    @good_fits = GoodFit.find_by_id(params[:id])
-   @good_fits.season = params["outfit"]["season"]
-   @good_fits.top = params["outfit"]["top"]
-   @good_fits.bottom = params["outfit"]["bottom"]
-   @good_fits.footwear = params["outfit"]["footwear"]
-   @good_fits.save
 
-    redirect "/good_fits"
+  if @good_fits.user_id == current_user.id
+
+     @good_fits.season = params["outfit"]["season"]
+     @good_fits.top = params["outfit"]["top"]
+     @good_fits.bottom = params["outfit"]["bottom"]
+     @good_fits.footwear = params["outfit"]["footwear"]
+     @good_fits.save
+
+     redirect "/good_fits/#{@good_fits.id}"
+   else
+     redirect "/good_fits"
+   end
   end
 
 
